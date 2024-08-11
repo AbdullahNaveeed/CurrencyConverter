@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const myApp());
 }
-//sjaknjka
+
 class myApp extends StatelessWidget {
   const myApp({super.key});
   @override
