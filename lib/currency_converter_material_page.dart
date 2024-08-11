@@ -51,6 +51,16 @@ class _CurrencyConverterMaterialPageState
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+  }
+
+  @override
+  void didUpdateWidget(covariant CurrencyConverterMaterialPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
   void dispose() {
     textEditingController.dispose();
     super.dispose();
